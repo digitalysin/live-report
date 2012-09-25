@@ -21,3 +21,4 @@ group :development, :test do
 end
 gem 'jquery-rails'
 gem 'slim-rails'
+gem 'capistrano'
