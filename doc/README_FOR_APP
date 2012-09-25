@@ -1,2 +1,16 @@
-Use this README file to introduce your application and point to useful places in the API for learning more.
-Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
+Convention over Configuration
+1. semua images, javascript, css (scss) harus dimasukan ke dalam folder
+  app/assets/images
+
+  misal, membuat controller dengan nama home_controller.rb, maka semua image yang berhubungan dengan
+  controller ini di taruh di folder
+  app/assets/images/home
+
+  javascript yang berhubungan dengan controller ini harus ditaruh di folder
+  app/assets/javascripts/home.js.coffee
+
+  css yang berhubungan dengan controller ini harus di taruh di folder
+  app/assets/stylesheets/home.css.scss
+
+2. Usahakan menggunakan generator yang disediakan oleh rails, seperti rails g controller, rails g model,
+  please don't reinvent the wheel
